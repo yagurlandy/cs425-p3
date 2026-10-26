@@ -87,7 +87,9 @@ Both sanitizer checks finished without reporting errors.
 ## Known Bugs or Issues
 
 I have not found any functional issues in the tests so far.
-I still need to verify the build on Onyx and check GitHub CI.
+The project builds on both Codespaces and Onyx. All 20 tests and both
+sanitizer checks passed on both systems. GitHub CI verification is
+still pending.
 
 ## Experience
 
