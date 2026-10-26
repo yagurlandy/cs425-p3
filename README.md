@@ -88,8 +88,12 @@ Both sanitizer checks finished without reporting errors.
 
 I have not found any functional issues in the tests so far.
 The project builds on both Codespaces and Onyx. All 20 tests and both
-sanitizer checks passed on both systems. GitHub CI verification is
-still pending.
+sanitizer checks passed on both systems. GitHub CI also passed.
+
+The submission report workflow failed during Python setup because
+it could not find Python 3.12.7 on Ubuntu 26.04. I changed the report
+runner from ubuntu-latest to ubuntu-22.04 to address this. I still
+need to confirm that the report generates successfully.
 
 ## Experience
 
