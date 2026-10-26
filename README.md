@@ -92,14 +92,21 @@ sanitizer checks passed on both systems. GitHub CI also passed.
 
 The submission report workflow failed during Python setup because
 it could not find Python 3.12.7 on Ubuntu 26.04. I changed the report
-runner from ubuntu-latest to ubuntu-22.04 to address this. I still
-need to confirm that the report generates successfully.
+runner from ubuntu-latest to ubuntu-22.04 to address this. Confirmed that 
+the report generated successfully.
 
 ## Experience
 
-I was really interested in this project because I got to build something we’ve been learning about in class and see it work. Subnetting makes more sense to me when I can follow what the code is doing and see how changing the prefix changes the network and host range.
+I was really interested in this project because I got to build something 
+we’ve been learning about in class and see it work. Subnetting makes more 
+sense to me when I can follow what the code is doing and see how changing 
+the prefix changes the network and host range.
 
-The forwarding table was especially interesting to me. I liked seeing how an address could match several routes, but the program would pick the most specific one. Working through everything in smaller parts helped, especially with the /0, /31, and /32 cases. It was satisfying to finally see all the tests pass and get the results I expected!
+The forwarding table was especially interesting to me. I liked seeing how an 
+address could match several routes, but the program would pick the most 
+specific one. Working through everything in smaller parts helped, 
+especially with the /0, /31, and /32 cases. It was satisfying to finally 
+see all the tests pass and get the results I expected!
 
 ## Analysis
 
